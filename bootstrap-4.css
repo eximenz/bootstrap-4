@@ -1,0 +1,102 @@
+.history {
+  width: 24rem;
+}
+figure {
+  width: 23%;
+}
+.sidebar li {
+  width: 325px;
+}
+.content {
+  border-left: 1px solid #913703fe;
+}
+body, nav, .media-nav, .dropdown-item, .dropdown-menu {
+  background-image: url(https://funart.pro/uploads/posts/2020-04/1587042536_15-p-svetlie-derevyannie-foni-56.jpg);
+}
+h2 {
+  color: #3b444d;
+}
+p {
+  text-indent: 25px;
+}
+.design {
+  margin-left: -25px;
+}
+footer {
+  background-image: url(https://krot.info/uploads/posts/2020-01/1579511428_25-103.jpg);
+}
+footer a, footer a:hover {
+  color: black;
+}
+h1 {
+  color: #1f3040;
+}
+input{
+  background-color: #e1e6eb;
+  border: 1px solid #cacaca;
+}
+nav a, .sidebar a, header a, ul a {
+ color: #283f54;
+}
+.nav-wrapper {
+ height: 166px;
+ position: sticky;
+ top: 60px;
+}
+.media-nav {
+  display: none;
+}
+.dropdown-header {
+  background-color: #e1e6eb;
+}
+@media (max-width: 768px) {
+  figure {width: 40%; }
+  html {font-size: 14px; }
+  .history {width: 16rem;}
+  .sidebar li {width: 235px;}
+}
+@media (max-width: 767px) {
+  .nav-wrapper, .main-nav, .about-us { display: none; }
+  .media-nav { display: inline-block; }
+  .content {border-left: none; }
+  html {font-size: 13px; }
+}
+@media (max-width: 425px) {
+  body { width: 400px; }
+}
+@media (min-width: 1440px) {
+ html {font-size: 18px; }
+ .sidebar li {width: 350px;}
+}
+@media (min-width: 2560px) {
+ html {font-size: 32px; }
+ .sidebar li {width: 650px;}
+}
+@media (min-width: 768px) {
+  header a:hover, nav a:hover {
+    border: solid 3px #382012fe;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #382012fe;
+    margin:-23px;
+  }
+  header a:focus, nav a:focus {
+    border: solid 3px #382012fe;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #382012fe;
+    margin:-23px;
+  }
+  .sidebar li:hover {
+    border: solid 3px #382012fe;
+    border-radius: 20px;
+    color: #382012fe;
+    margin:-3px;
+  }
+  .sidebar li a:hover {
+    color: #382012fe;
+  }
+  ul a:hover {
+   color: #382012fe;
+  }
+}
